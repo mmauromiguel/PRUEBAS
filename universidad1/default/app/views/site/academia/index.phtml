@@ -1,0 +1,25 @@
+<h1>Listado de academias</h1>
+<?php echo Html::linkAction('create', 'AGREGAR', array('class'=>'btn btn-success')); ?>
+
+<table class="table table-bordered">
+  <thead>
+      <tr>
+        <th>ID</th>
+        <th>NOMBRE</th>
+        <th>OPCIONES</th>
+      </tr>
+  </thead>
+  <tbody>
+    <?php foreach ($academias as $academia): ?>
+      <tr>
+        <td><?php echo $academia->id; ?></td>
+        <td><?php echo $academia->nombre; ?></td>
+        <td>
+          <?php echo Html::linkAction('edit/'.$academia->id, 'Editar'); ?>
+          <?php echo Html::linkAction('destroy/'.$academia->id, 'Eliminar',
+            array('onclick'=>"return confirm('Desea eliminar este elemento')")); ?>
+        </td>
+      </tr>
+    <?php endforeach; ?>
+  </tbody>
+</table>

@@ -1,0 +1,42 @@
+<?php View::content(); ?>
+
+<h1><?php echo $actionTitle; ?></h1>
+<?php
+  echo Form::open();
+    echo Form::label('Nombres', 'estudiante.nombres', array('class'=>'form-label'));
+    echo Form::text('estudiante.nombres', array('class'=>'form-control'));
+
+    echo Form::label('Apellidos', 'estudiante.apellidos', array('class'=>'form-label'));
+    echo Form::text('estudiante.apellidos', array('class'=>'form-control'));
+
+    echo Form::label('Sexo', 'estudiante.sexo', array('class'=>'form-label'));
+    echo Form::text('estudiante.sexo', array('class'=>'form-control'));
+
+    echo Form::label('Cédula', 'estudiante.cedula', array('class'=>'form-label'));
+    echo Form::text('estudiante.cedula', array('class'=>'form-control'));
+
+    echo Form::label('Fecha Nacimiento', 'estudiante.fecha_nacimiento', array('class'=>'form-label'));
+    echo Form::text('estudiante.fecha_nacimiento', array('class'=>'form-control'));
+
+    echo Form::label('Lugar de nacimiento', 'estudiante.lugar_nacimiento', array('class'=>'form-label'));
+    echo Form::textarea('estudiante.lugar_nacimiento', array('class'=>'form-control'));
+
+    echo Form::label('Correo', 'estudiante.correo', array('class'=>'form-label'));
+    echo Form::text('estudiante.correo', array('class'=>'form-control'));
+
+    echo Form::label('Fijo', 'estudiante.fijo', array('class'=>'form-label'));
+    echo Form::text('estudiante.fijo', array('class'=>'form-control'));
+
+    echo Form::label('Celular', 'estudiante.celular', array('class'=>'form-label'));
+    echo Form::text('estudiante.celular', array('class'=>'form-control'));
+
+    echo Form::label('Academia', 'estudiante.academia_id', array('class'=>'form-label'));
+    echo Form::dbSelect('estudiante.academia_id', 'nombre', array('site/academia', 'find'), 'Seleccione' ,array('class'=>'form-control'));
+
+
+    echo Form::submit('Guardar', array('class'=>'btn btn-primary'));
+    echo Html::linkAction("index", "Cancelar", array('class'=>'btn btn-default'));
+    echo Form::hidden('estudiante.id', false);
+  echo Form::close();
+
+ ?>

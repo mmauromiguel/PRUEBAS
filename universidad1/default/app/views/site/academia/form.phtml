@@ -1,0 +1,12 @@
+<h1><?php echo $actionTitle; ?></h1>
+<?php
+  echo Form::open();
+    echo Form::label('Nombre', 'academia.nombre', array('class'=>'form-label'));
+    echo Form::text('academia.nombre', array('class'=>'form-control'));
+
+    echo Form::submit('Guardar', array('class'=>'btn btn-primary'));
+    echo Html::linkAction("index", "Cancelar", array('class'=>'btn btn-default'));
+    echo Form::hidden('academia.id', false);
+  echo Form::close();
+
+ ?>
