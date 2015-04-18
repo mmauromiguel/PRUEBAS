@@ -16,11 +16,11 @@
 			if (Input::hasPost('estudiante')) {
 				//intentar crear el registro en la tabla
 				$estudiante = new Estudiante(Input::post('estudiante'));
-				if ($estudiante->create()){
+				if ($estudiante->crear()){
 					Flash::valid("El estudiante a ingresadoso exitosamente");
 					Redirect::toAction("listar");
 				} else {
-					Flash::error("Error de creación");
+					Flash::error("Error de creaciÃ³n");
 				}
 			}
 			//solo dibujar el formulario
