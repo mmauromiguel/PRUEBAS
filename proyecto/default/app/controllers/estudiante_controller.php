@@ -1,25 +1,24 @@
 <?php
+
 	Load::model("estudiante");
 	class EstudianteController extends AppController
 	{
-		
-				
-		function index($page=1) {
-			Redirect::toAction("listar");
+		 function index($page=1) {
+			Router::toAction("listar");
 		}
 		
 		function listar() {
 			$estudiante = new Estudiante();
-			$this->estudiantes = $estudiante->find();
+			$this->estudiante = $estudiante->find();
 		}
 		
-		function crear() {
+		public function create() {
 			if (Input::hasPost('estudiante')) {
 				//intentar crear el registro en la tabla
 				$estudiante = new Estudiante(Input::post('estudiante'));
 				if ($estudiante->create()){
 					Flash::valid("El estudiante a ingresadoso exitosamente");
-					Redirect::toAction("listar");
+					Router::toAction("listar");
 				} else {
 					Flash::error("Error de creación");
 				}
@@ -39,7 +38,7 @@
 					Flash::error("Imposible borrar");
 				}
 			}
-			Redirect::toAction("listar");
+			Router::toAction("listar");
 		}
 		
 		function editar($id) {
@@ -53,7 +52,7 @@
 				} else {
 					Flash::error("Imposible actualizar");
 				}
-				Redirect::toAction("listar");
+				Router::toAction("listar");
 			} 
 			if ($id != null) {
 				$estudiante = new Estudiante();
