@@ -6,7 +6,7 @@ class Estudiante extends ActiveRecord
     $this->listEstudiante = $estudiante->getEstudiante ($page);
     
     }
-    public function Cinitialize(){
+    public function initialize(){
     	$this->has_many("academia");
     	 
     	$this->validates_presence_of("cedula");
