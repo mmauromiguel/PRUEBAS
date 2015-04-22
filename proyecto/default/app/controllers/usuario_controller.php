@@ -6,31 +6,14 @@ public function index()
     {
     
     }
-    
-    function crear() 
+public function create() 
     {
     
     }
 
-    function edit()
+    public function edit()
     {
     
-    }
-    
-    function login()
-    {
-    	
-    }
-    
-    
-    function logout()
-    {
-    	
-    }
-    
-    function logged()
-    {
-    	
     }
 }
 ?>
