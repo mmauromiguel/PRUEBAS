@@ -1,6 +1,8 @@
 <?php
 class Estudiante extends ActiveRecord
 {
+	public $logger = true;
+	
 	public function index($page=1) {
     $estudiante = new Estudiante();
     $this->listEstudiante = $estudiante->getEstudiante ($page);
