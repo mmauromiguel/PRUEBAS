@@ -1,2 +1,0 @@
-[Sun, 26 Apr 15 03:32:21 +0200][DEBUG] DESCRIBE `estudiante`
-[Sun, 26 Apr 15 03:32:22 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
