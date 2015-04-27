@@ -1,0 +1,12 @@
+[Sun, 26 Apr 15 03:32:21 +0200][DEBUG] DESCRIBE `estudiante`
+[Sun, 26 Apr 15 03:32:22 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Sun, 26 Apr 15 22:40:59 +0200][DEBUG] DESCRIBE `estudiante`
+[Sun, 26 Apr 15 22:40:59 +0200][DEBUG] BEGIN
+[Sun, 26 Apr 15 22:41:00 +0200][DEBUG] DESCRIBE `estudiante`
+[Sun, 26 Apr 15 22:41:00 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Sun, 26 Apr 15 22:41:58 +0200][DEBUG] DESCRIBE `estudiante`
+[Sun, 26 Apr 15 22:41:58 +0200][DEBUG] BEGIN
+[Sun, 26 Apr 15 22:41:58 +0200][DEBUG] INSERT INTO estudiante (nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id) VALUES ('bb','bb','M','bb','1970-01-01 1:00:00','nn','nnn','nnn',NULL,'2')
+[Sun, 26 Apr 15 22:41:58 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 3 LIMIT 1
+[Sun, 26 Apr 15 22:41:59 +0200][DEBUG] DESCRIBE `estudiante`
+[Sun, 26 Apr 15 22:41:59 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante

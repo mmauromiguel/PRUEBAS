@@ -1,0 +1,174 @@
+[Thu, 23 Apr 15 00:21:44 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:22:25 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:30:15 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:30:19 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:39:06 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:39:06 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 00:39:16 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:39:21 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:40:57 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:41:05 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:41:13 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:41:22 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:41:32 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:42:58 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:50:12 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:50:56 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 00:51:02 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 04:38:27 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 04:44:21 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 04:44:27 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 04:45:09 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 04:45:22 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 04:46:17 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 04:46:54 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 04:47:02 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 04:47:02 +0200][DEBUG] INSERT INTO estudiante (nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id) VALUES (NULL,'ssss','1','qqq','2010-10-10 0:00:00','aa','aa','aa',NULL,'1')
+[Thu, 23 Apr 15 04:47:02 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 1 LIMIT 1
+[Thu, 23 Apr 15 04:47:02 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 04:47:02 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 05:08:17 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:08:17 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 05:08:17 +0200][DEBUG] INSERT INTO estudiante (nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id) VALUES ('nelson','rojas','1','123456','1977-11-16 0:00:00','Talca','nelson.rojas.n@gmail.com','000000',NULL,'2')
+[Thu, 23 Apr 15 05:08:17 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 2 LIMIT 1
+[Thu, 23 Apr 15 05:08:18 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:08:18 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 05:12:16 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:12:16 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 05:12:16 +0200][DEBUG] INSERT INTO estudiante (nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id) VALUES ('nelson','rojas','1','123456','1977-11-16 0:00:00','Talca','nelson.rojas.n@gmail.com','000000',NULL,'1')
+[Thu, 23 Apr 15 05:12:16 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 3 LIMIT 1
+[Thu, 23 Apr 15 05:12:16 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:12:16 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 05:14:50 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:14:50 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 05:14:50 +0200][DEBUG] INSERT INTO estudiante (nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id) VALUES ('nelson','rojas','1','123456','1977-11-16 0:00:00','Talca','nelson.rojas.n@gmail.com','000000',NULL,'1')
+[Thu, 23 Apr 15 05:14:50 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 4 LIMIT 1
+[Thu, 23 Apr 15 05:14:51 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:14:51 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 05:42:00 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:42:00 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 1
+[Thu, 23 Apr 15 05:42:37 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:42:37 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 4
+[Thu, 23 Apr 15 05:44:17 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:44:17 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 05:44:18 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:44:18 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 05:44:34 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:44:34 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 4
+[Thu, 23 Apr 15 05:44:34 +0200][DEBUG] DELETE FROM estudiante WHERE id = '4'
+[Thu, 23 Apr 15 05:44:34 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:44:34 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 05:45:42 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:45:42 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 05:45:42 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 05:45:42 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 11:55:43 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 11:55:44 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 11:55:45 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 11:55:45 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 11:56:08 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 11:56:08 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 1
+[Thu, 23 Apr 15 11:56:08 +0200][DEBUG] DELETE FROM estudiante WHERE id = '1'
+[Thu, 23 Apr 15 11:56:09 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 11:56:09 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 11:56:16 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 11:56:16 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:02:39 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:02:39 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 12:02:39 +0200][DEBUG] INSERT INTO estudiante (nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id) VALUES ('Mauro Miguel','Melo','1','8013142','2010-10-10 0:00:00','Talca','nelson.rojas.n@gmail.com','8888',NULL,'1')
+[Thu, 23 Apr 15 12:02:39 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 2 LIMIT 1
+[Thu, 23 Apr 15 12:02:40 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:02:40 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:09:26 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:09:26 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:10:46 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:10:46 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:11:41 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:11:41 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:14:51 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:14:51 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:17:49 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:17:49 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:19:20 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:19:20 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:21:15 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:21:15 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:22:21 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:22:21 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:25:34 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:25:34 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 12:27:22 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:27:22 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 12:27:22 +0200][DEBUG] INSERT INTO estudiante (nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id) VALUES ('Mauro Miguel','Melo','M','801143','2010-10-10 0:00:00','Talca','nelson.rojas.n@gmail.com','8888',NULL,'1')
+[Thu, 23 Apr 15 12:27:22 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 3 LIMIT 1
+[Thu, 23 Apr 15 12:27:22 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 12:27:22 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:03:36 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:03:36 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:05:52 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:05:52 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:13:50 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:13:50 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:19:04 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:19:04 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:29:10 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:29:10 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:30:51 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:30:51 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:36:03 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:36:03 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:37:46 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:37:46 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:39:04 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:39:04 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:40:15 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:40:15 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 2
+[Thu, 23 Apr 15 13:40:15 +0200][DEBUG] DELETE FROM estudiante WHERE id = '2'
+[Thu, 23 Apr 15 13:40:15 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:40:15 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:40:27 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:40:27 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 3
+[Thu, 23 Apr 15 13:40:27 +0200][DEBUG] DELETE FROM estudiante WHERE id = '3'
+[Thu, 23 Apr 15 13:40:27 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:40:27 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:42:38 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:42:38 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 13:42:38 +0200][DEBUG] INSERT INTO estudiante (nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id) VALUES ('Mauro Miguel','Melo','F','8013142','2010-10-10 0:00:00','Talca','nelson.rojas.n@gmail.com','8888',NULL,'1')
+[Thu, 23 Apr 15 13:42:38 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 4 LIMIT 1
+[Thu, 23 Apr 15 13:42:38 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:42:38 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:48:29 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:48:29 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 13:48:33 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:48:33 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 4
+[Thu, 23 Apr 15 13:48:33 +0200][DEBUG] DELETE FROM estudiante WHERE id = '4'
+[Thu, 23 Apr 15 13:48:34 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 13:48:34 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 19:12:45 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 19:12:45 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 19:12:45 +0200][DEBUG] INSERT INTO estudiante (nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id) VALUES ('Nairyn Emalbimar','Arvelo Escobar','F','21789167','1993-03-31 0:00:00','Puerto Ayacucho','nairym_e@hotmail.com','04144550508',NULL,'1')
+[Thu, 23 Apr 15 19:12:45 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 1 LIMIT 1
+[Thu, 23 Apr 15 19:12:46 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 19:12:46 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 19:41:03 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 19:41:03 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 22:46:39 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 22:46:39 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 22:56:12 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 22:56:12 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 23:02:47 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 23:02:47 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 23:03:44 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 23:03:44 +0200][DEBUG] BEGIN
+[Thu, 23 Apr 15 23:03:45 +0200][DEBUG] INSERT INTO estudiante (nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id) VALUES ('Mauro Miguel','Melo','M','8013142m','2010-10-10 0:00:00','Talca','nelson.rojas.n@gmail.com','8888',NULL,'1')
+[Thu, 23 Apr 15 23:03:45 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante WHERE id = 1 LIMIT 1
+[Thu, 23 Apr 15 23:03:46 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 23:03:46 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 23:04:32 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 23:04:32 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 23:06:14 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 23:06:14 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 23:09:30 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 23:09:30 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante
+[Thu, 23 Apr 15 23:10:10 +0200][DEBUG] DESCRIBE `estudiante`
+[Thu, 23 Apr 15 23:10:10 +0200][DEBUG] SELECT id,nombre,apellido,sexo,cedula,fechanacimiento,lugarnacimiento,correo,celular,usuario_id,academia_id FROM estudiante

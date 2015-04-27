@@ -1,4 +1,4 @@
-
+<?php View::content(); ?>
 
 <?php  echo Form:: open () // por defecto llama a la misma url ?>
 <center>
@@ -8,21 +8,21 @@
 <table border="0" bordercolor="#9B91BC">
 	
 		<td><label>Nombres:</td>
-		<td><?php echo Form::text ( 'estudiante.nombres' ) ?> </label></td>
+		<td><?php echo Form::text ( 'estudiante.nombre' ) ?> </label></td>
 		<td><label>Apellidos:</td>
-		<td><?php echo Form::text ( 'estudiante.apellidos' ) ?> </label></td>
+		<td><?php echo Form::text ( 'estudiante.apellido' ) ?> </label></td>
 	</tr>
 	
 	<tr>
 		<td>Cedula:</td>
 		<td><?php echo Form::text ( 'estudiante.cedula' ) ?> </label></td>
 		<td>Sexo:</td>
-		<td><?php echo Form::select ( 'estudiante.sexo', array('0'=>'=========','1'=>'Masculino','2'=>'Femenino') ); ?> </label></td>
+		<td><?php echo Form::select ( 'estudiante.sexo', array('0'=>'=========','M'=>'Masculino','F'=>'Femenino') ); ?> </label></td>
 	</tr>
 
 	<tr>
 		<td><label>Fecha de Nacimiento:</td>
-		<td><?php echo Form::text ( 'estudiante.fechanacimiento_at' ) ?></label> </td>
+		<td><?php echo Form::text ( 'estudiante.fechanacimiento' ) ?></label> </td>
 		<td><label>Lugar de Nacimiento:</td>
 		<td><?php echo Form::text ( 'estudiante.lugarnacimiento' ) ?></label> </td>
 	</tr>
@@ -36,7 +36,7 @@
 		<td><label>Egreso de secundaria:</td>
 		<td><?php echo Form::text ( 'academia.egreso' ) ?></label></td>
 		<td>Seleccione:</td>
-		<td><?php echo Form::select('academia.seleccion', array('0'=>'=========','1'=>'Física','2'=>'Matematica','3'=>'Arquitectuta') ); ?></td>
+		<td><?php echo Form::select('estudiante.academia_id', array('0'=>'=========','1'=>'Física','2'=>'Matematica','3'=>'Arquitectuta') ); ?></td>
 	</tr>
 
 </table>
