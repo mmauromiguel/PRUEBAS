@@ -1,5 +1,5 @@
 <?php
-	Load::models("estudiante", "usuario");
+	Load::model("estudiante");
 	class EstudianteController extends AppController
 	{
 		
@@ -17,29 +17,12 @@
 			if (Input::hasPost('estudiante')) {
 				//intentar crear el registro en la tabla
 				$estudiante = new Estudiante(Input::post('estudiante'));
-				
-				//vamos a intentar crear usuario y estudiante como una instruccion atomica
-				$estudiante->begin(); //iniciar transaccion
-				
-				
-				try {
-					$estudiante->create();
-					$usuario = new Usuario();
-					$nombreUsuario = Filter::get($estudiante->nombre, 'trim');
-					$nombreUsuario .= ".";
-					$nombreUsuario .= Filter::get($estudiante->apellido, 'trim');
-					
-					$estudiante->usuario_id = $usuario->crearUsuario($nombreUsuario);
-					$estudiante->save();
-					$estudiante->commit(); //si todo va bien tendremos usuario y estudiante
+				if ($estudiante->create()){
 					Flash::valid("El estudiante a ingresadoso exitosamente");
 					Redirect::toAction("listar");
-				} catch(Exception $ex) {
-					//si hay error hacer borron y cuenta nueva
-					$estudiante->rollback();
-					Flash::error("Error de creaci&oacute;n");
+				} else {
+					Flash::error("Error de creación");
 				}
-				
 			}
 			//solo dibujar el formulario
 		}
@@ -78,4 +61,3 @@
 			}
 		}
 	}
-?>
