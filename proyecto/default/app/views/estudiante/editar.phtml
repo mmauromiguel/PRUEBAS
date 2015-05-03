@@ -6,13 +6,13 @@
 		<legend align="right"><h1>Ingrese su información</h1></legend>
 
 <table border="0" bordercolor="#9B91BC">
-
+	
 		<td><label>Nombres:</td>
 		<td><?php echo Form::text ( 'estudiante.nombre' ) ?> </label></td>
 		<td><label>Apellidos:</td>
 		<td><?php echo Form::text ( 'estudiante.apellido' ) ?> </label></td>
 	</tr>
-
+	
 	<tr>
 		<td>Cedula:</td>
 		<td><?php echo Form::text ( 'estudiante.cedula' ) ?> </label></td>
@@ -36,11 +36,12 @@
 		<td><label>Egreso de secundaria:</td>
 		<td><?php echo Form::text ( 'academia.egreso' ) ?></label></td>
 		<td>Seleccione:</td>
-		<td><?php echo Form::dbSelect('academia.seleccion', 'seleccion',
+		<td><?php echo Form::dbSelect('estudiante.academia_id', 'seleccion',
 				 array('academia', 'find'), 'Indique');?>
 	</tr>
 
 </table>
-<?php echo Form:: submit ( 'Agregar' ) ?></center></fieldset>
-<?php echo Form:: close ()
+<?php echo Form::hidden('estudiante.id');?>
+<?php echo Form:: submit ( 'Actualizar' ) ?></center></fieldset>
+<?php echo Form:: close () 
 ?>

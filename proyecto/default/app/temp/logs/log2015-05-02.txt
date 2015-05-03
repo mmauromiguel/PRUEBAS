@@ -1,0 +1,29 @@
+[Sat, 02 May 15 13:49:11 +0200][DEBUG] DESCRIBE `academia`
+[Sat, 02 May 15 13:49:12 +0200][DEBUG] SELECT id,seleccion,egreso FROM academia
+[Sat, 02 May 15 14:03:44 +0200][DEBUG] DESCRIBE `estudiante`
+[Sat, 02 May 15 14:03:44 +0200][DEBUG] SELECT estudiante.*, academia.seleccion as academia FROM estudiante LEFT OUTER JOIN academia ON estudiante.academia_id = academia.id
+[Sat, 02 May 15 14:03:44 +0200][DEBUG] DESCRIBE `academia`
+[Sat, 02 May 15 14:03:44 +0200][DEBUG] SELECT academia.*,  estudiante.nombre as estudiante FROM academia LEFT OUTER JOIN academia ON acedemia.estudiante = estudiante.id
+[Sat, 02 May 15 14:03:44 +0200][ERROR] Not unique table/alias: 'academia' al ejecutar <em>"SELECT academia.*,  estudiante.nombre as estudiante FROM academia LEFT OUTER JOIN academia ON acedemia.estudiante = estudiante.id"</em>
+[Sat, 02 May 15 14:05:25 +0200][DEBUG] DESCRIBE `estudiante`
+[Sat, 02 May 15 14:05:25 +0200][DEBUG] SELECT estudiante.*, academia.seleccion as academia FROM estudiante LEFT OUTER JOIN academia ON estudiante.academia_id = academia.id
+[Sat, 02 May 15 14:05:25 +0200][DEBUG] DESCRIBE `academia`
+[Sat, 02 May 15 14:05:26 +0200][DEBUG] SELECT academia.*,  estudiante.nombre as estudiante FROM academia LEFT OUTER JOIN academia ON acedemia.estudiante = estudiante.id
+[Sat, 02 May 15 14:05:26 +0200][ERROR] Not unique table/alias: 'academia' al ejecutar <em>"SELECT academia.*,  estudiante.nombre as estudiante FROM academia LEFT OUTER JOIN academia ON acedemia.estudiante = estudiante.id"</em>
+[Sat, 02 May 15 14:08:18 +0200][DEBUG] DESCRIBE `estudiante`
+[Sat, 02 May 15 14:08:18 +0200][DEBUG] SELECT estudiante.*, academia.seleccion as academia FROM estudiante LEFT OUTER JOIN academia ON estudiante.academia_id = academia.id
+[Sat, 02 May 15 14:08:18 +0200][DEBUG] DESCRIBE `academia`
+[Sat, 02 May 15 14:09:41 +0200][DEBUG] DESCRIBE `estudiante`
+[Sat, 02 May 15 14:09:41 +0200][DEBUG] SELECT estudiante.*, academia.seleccion as academia FROM estudiante LEFT OUTER JOIN academia ON estudiante.academia_id = academia.id
+[Sat, 02 May 15 14:09:41 +0200][DEBUG] DESCRIBE `academia`
+[Sat, 02 May 15 14:09:41 +0200][DEBUG] SELECT academia.*,  estudiante.nombre as estudiante FROM academia LEFT OUTER JOIN academia ON acedemia.estudiante = estudiante.id
+[Sat, 02 May 15 14:09:41 +0200][ERROR] Not unique table/alias: 'academia' al ejecutar <em>"SELECT academia.*,  estudiante.nombre as estudiante FROM academia LEFT OUTER JOIN academia ON acedemia.estudiante = estudiante.id"</em>
+[Sat, 02 May 15 14:21:14 +0200][DEBUG] DESCRIBE `estudiante`
+[Sat, 02 May 15 14:21:14 +0200][DEBUG] SELECT estudiante.*, academia.seleccion as academia FROM estudiante LEFT OUTER JOIN academia ON estudiante.academia_id = academia.id
+[Sat, 02 May 15 14:21:14 +0200][DEBUG] DESCRIBE `academia`
+[Sat, 02 May 15 14:21:14 +0200][DEBUG] SELECT academia.*,  estudiante.nombre as estudiante FROM academia LEFT OUTER JOIN academia ON acedemia.estudiante = estudiante.id
+[Sat, 02 May 15 14:21:14 +0200][ERROR] Not unique table/alias: 'academia' al ejecutar <em>"SELECT academia.*,  estudiante.nombre as estudiante FROM academia LEFT OUTER JOIN academia ON acedemia.estudiante = estudiante.id"</em>
+[Sat, 02 May 15 14:23:50 +0200][DEBUG] DESCRIBE `estudiante`
+[Sat, 02 May 15 14:23:50 +0200][DEBUG] SELECT estudiante.*, academia.seleccion as academia FROM estudiante LEFT OUTER JOIN academia ON estudiante.academia_id = academia.id
+[Sat, 02 May 15 15:07:52 +0200][DEBUG] DESCRIBE `estudiante`
+[Sat, 02 May 15 15:07:52 +0200][DEBUG] SELECT estudiante.*, academia.seleccion as academia FROM estudiante LEFT OUTER JOIN academia ON estudiante.academia_id = academia.id

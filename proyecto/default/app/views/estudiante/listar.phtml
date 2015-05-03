@@ -1,24 +1,36 @@
-<?php View::content(); ?>
-<h1>Listado de los estuiantes</h1>
-
 <?php echo Html::linkAction("crear", "Nueva categor&iacute;a"); ?>
 
 <table border="1" cellpadding="2" cellspacing="2" width="500" >
   <tr>
-    <th>ID</th>
-    <th>NOMBRE</th>
-    <th>F.CREACION</th>
-    <th>F.ACTUALIZACION</th>
+    <th>Id</th>
+    <th>Nombres</th>
+    <th>Apellidos</th>
+    <th>Cedula</th>
+    <th>Sexo</th>
+    <th>Fecha Nacimiento</th>
+    <th>Lugar Nacmiento</th>
+    <th>Correo-E</th>
+    <th>Celular</th>
+    <th>Egreso bachiredato</th>
+    <th>Carrera</th>
     <th>OPCIONES</th>
   </tr>
   <?php foreach($estudiantes as $estudiante): ?>
+  
   <tr>
     <td><?php echo $estudiante->id;?></td>
     <td><?php echo $estudiante->nombre;?></td>
-    <td><?php echo $estudiante->created_at;?></td>
-    <td><?php echo $estudiante->updated_in;?></td>
+    <td><?php echo $estudiante->apellido;?></td>
+    <td><?php echo $estudiante->cedula;?></td>
+    <td><?php echo $estudiante->sexo;?></td>
+    <td><?php echo $estudiante->fechanacimiento;?></td>
+    <td><?php echo $estudiante->lugarnacimiento;?></td>
+    <td><?php echo $estudiante->correo;?></td>
+    <td><?php echo $estudiante->celular;?></td>
+    <td><?php echo $academia->egreso;?></td>
+    <td><?php echo $academia->seleccion;?></td>
     <td>
-    	<?php echo Html::linkAction("borrar/$estudiante->id", "Borrar");?> 
+    	<?php echo Html::linkAction("borrar/$estudiante->id", "Borrar");?>
     	<?php echo Html::linkAction("editar/$estudiante->id", "Editar");?>
     </td>
   </tr>

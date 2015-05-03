@@ -1,0 +1,12 @@
+[Fri, 01 May 15 13:19:13 +0200][DEBUG] DESCRIBE `academia`
+[Fri, 01 May 15 13:19:13 +0200][DEBUG] INSERT INTO academia (seleccion,egreso) VALUES ('2','2014/04/03')
+[Fri, 01 May 15 13:19:13 +0200][DEBUG] SELECT id,seleccion,egreso FROM academia WHERE id = 8 LIMIT 1
+[Fri, 01 May 15 13:19:13 +0200][DEBUG] COMMIT
+[Fri, 01 May 15 16:26:41 +0200][DEBUG] DESCRIBE `academia`
+[Fri, 01 May 15 16:26:41 +0200][DEBUG] SELECT id,seleccion,egreso FROM academia
+[Fri, 01 May 15 20:01:37 +0200][DEBUG] DESCRIBE `academia`
+[Fri, 01 May 15 20:01:37 +0200][DEBUG] SELECT id,seleccion,egreso FROM academia
+[Fri, 01 May 15 21:40:51 +0200][DEBUG] DESCRIBE `academia`
+[Fri, 01 May 15 21:40:52 +0200][DEBUG] SELECT id,seleccion,egreso FROM academia
+[Fri, 01 May 15 21:43:28 +0200][DEBUG] DESCRIBE `academia`
+[Fri, 01 May 15 21:43:28 +0200][DEBUG] SELECT id,seleccion,egreso,estudiante_id FROM academia
